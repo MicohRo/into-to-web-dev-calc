@@ -1,0 +1,65 @@
+.calc-background {
+  background-color: black;
+  height: 500px;
+  width: 24%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.calc-display {
+  color: white;
+  background-color: black;
+  height: 16%;
+  width: 100%;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 2em;
+  border: none;
+}
+
+.double-button {
+  background-color: #d8d9db;
+  width: 49%;
+  height: 16%;
+  font-size: 2em;
+}
+
+.quarter-button {
+  background-color: #d8d9db;
+  width: 24%;
+  height: 16%;
+  font-size: 2em;
+}
+
+.math-button {
+  background-color: #df974c;
+  border: none;
+}
+
+.math-button:hover {
+  background-color: #dfb07e;
+}
+
+.math-button:active {
+  background-color: #dd8d37;
+}
+
+.triple-button {
+  width: 74%;
+  height: 16%;
+  background-color: #d8d9db;
+  font-size: 2em;
+}
+
+.button {
+  border: none;
+}
+
+.button:hover {
+  background-color: #ebebeb;
+}
+
+.button:active {
+  background-color: #bbbcbe;
+}
